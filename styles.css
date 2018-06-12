@@ -1,3 +1,26 @@
+header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #c3092d;
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#main {
+    font-family: 'Rokkitt', serif;
+    margin-bottom: 10%;
+}
+
+#img-div {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 #image {
     max-width: 100%;
     display: block;
@@ -5,6 +28,52 @@
     margin: auto;
 }
 
-li {
+#img-caption {
+    padding: 20px;
+    color: white;
+    background-color: #222221;
+}
+
+#tribute-info {
+    color: #222221;  
+}
+
+ul {
     list-style-type: none;
+    padding-left: 0;
+    margin: 3% 25% 5% 25%;  
+}
+
+li {
+    font-size: 20px;
+    padding-top: 4%;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}
+
+a {
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.fa-github {
+    color: #222221;    
+}
+
+.fa-github:hover {
+    color: #c3092d;    
 }
