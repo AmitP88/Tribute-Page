@@ -13,7 +13,7 @@ h3 {
 }
 
 #img-div {
-    text-align: center;
+    display: table;
 }
 
 #image {
@@ -26,7 +26,8 @@ h3 {
 #img-caption {
     color: white;
     background-color: #222221;
-    text-align: justify;
+    display: table-caption;
+    caption-side: bottom;
 }
 
 #tribute-info {
