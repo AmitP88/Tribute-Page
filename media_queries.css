@@ -1,5 +1,46 @@
 @media (min-width: 320px) {
+    header {
+        padding-top: 10%;
+        padding-bottom: 1%;
+    }
 
+    h1 {
+        margin-bottom: 0;
+    }
+
+    h3 {
+        margin-top: 2%;
+    }
+
+    #img-div {
+        padding: 5%;
+    }
+
+    #img-caption {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    #tribute-info {
+        font-size: 18px;
+        padding: 0 10% 0 10%;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        padding-top: 5%;
+    }
+
+    #more-info {
+        padding: 5%;
+    }
+
+    footer {
+        padding: 5%;
+    }
 }
 
 @media (min-width: 375px) {
