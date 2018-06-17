@@ -64,7 +64,13 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
+    #tribute-info {
+        margin: 0 15% 0 15%;
+    }
+}
+
+@media (min-width: 1000px) {
     header {
         margin-top: 5%;
     }
@@ -77,9 +83,17 @@
     h3 {
         margin-top: 2%;
         font-size: 2vw;
-    }    
+    }
+    
+    #img-div {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
 
-@media (min-width: 1440px) {
- 
+@media (min-width: 1240px) {
+    #img-div {
+        margin-left: 20%;
+        margin-right: 0;
+    }
 }
