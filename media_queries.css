@@ -67,6 +67,10 @@
     #tribute-info {
         font-size: 20px;
     }
+
+    footer {
+        margin-bottom: 5%;
+    }
 }
 
 @media (min-width: 800px) {
