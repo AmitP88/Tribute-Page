@@ -1,7 +1,21 @@
+html {
+    background-color: darkslategray;
+}
+
+body {
+    background-color: #808080c2;
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color: #c3092d;
+    margin-top: 0;
+}
+
+h1 {
+    margin-top: 0;
 }
 
 h3 {
@@ -24,7 +38,7 @@ h3 {
 }
 
 #img-caption {
-    color: white;
+    color: darkcyan;
     background-color: #222221;
     display: table-caption;
     caption-side: bottom;
@@ -49,7 +63,8 @@ footer {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
+
 }
 
 a:hover {
