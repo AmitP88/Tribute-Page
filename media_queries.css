@@ -2,7 +2,11 @@
     header {
         margin-top: 0;
         margin-bottom: 1%;
-        padding-top: 15%;
+        padding-top: 10%;
+    }
+
+    body {
+        width: 100%;
     }
 
     h1 {
@@ -66,6 +70,9 @@
 }
 
 @media (min-width: 800px) {
+    body {
+        width: 90%;
+    }
     #tribute-info {
         margin: 0 15% 0 15%;
     }
@@ -87,7 +94,7 @@
     }
     
     #img-div {
-        margin-left: 15%;
+        margin-left: 20%;
         margin-right: 15%;
     }
 }
